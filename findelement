@@ -1,0 +1,5 @@
+arr=list(map(int,input("Enter the elements").split()))
+k=int(input("Enter the element need to search !"))
+for i  in range(len(arr)-1):
+    if arr[i]==k:
+        print(f"{arr[i]} is found at index {i}")
